@@ -36,7 +36,7 @@ This assignment focuses on creating a clean UI design with proper layout structu
 ### Homepage Preview
 
 ```md
-![Project Screenshot](./images/screenshot.png)
+![Project Screenshot](images/screensort.png)
 ```
 ---
 
