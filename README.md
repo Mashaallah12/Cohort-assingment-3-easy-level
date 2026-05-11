@@ -33,7 +33,7 @@ This assignment focuses on creating a clean UI design with proper layout structu
 
 ## 📸 Screenshot
 
-![Project Screenshot](./images/screenshot.png)
+![Project Screenshot](./images/screensort.png)
 
 ## 📁 Folder Structure
 
