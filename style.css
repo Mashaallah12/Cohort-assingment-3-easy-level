@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #12040d;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 30px 60px;
+
+    background:
+        linear-gradient(to right,
+            rgba(120, 0, 40, 0.7),
+            rgba(15, 0, 40, 0.9));
+
+    overflow: hidden;
+}
+
+/* NAVBAR */
+
+nav {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 45px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links .active {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.menu i {
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+
+.hero {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+/* LEFT */
+
+.left {
+    width: 40%;
+}
+
+.title-img {
+    width: 350px;
+}
+
+.left p {
+    color: rgba(255, 255, 255, 0.8);
+
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 17px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+
+    margin-top: 40px;
+}
+
+.buttons button {
+    padding: 16px 35px;
+
+    border-radius: 12px;
+    border: none;
+
+    color: white;
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.play-btn {
+    background: linear-gradient(to right, #ff007a, #ff9900);
+}
+
+.trailer-btn {
+    background: transparent;
+    border: 1px solid #ff007a !important;
+}
+
+.buttons i {
+    margin-right: 8px;
+}
+
+/* CENTER */
+
+.center-scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.center-scroll span {
+    color: white;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    writing-mode: vertical-rl;
+}
+
+.line {
+    width: 2px;
+    height: 90px;
+
+    background: #ff4f8b;
+}
+
+/* RIGHT */
+
+.right {
+    width: 40%;
+    position: relative;
+    /* background-color: aliceblue; */
+
+
+}
+
+.main-img {
+    width: 70%;
+    height: 550px;
+    position: relative;
+    right: 10%;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 0, 128, 0.3);
+    box-shadow:
+        0 0 20px rgba(255, 0, 128, 0.3);
+    border-radius: 20px;
+
+}
+
+.social-icons {
+    position: absolute;
+
+    right: 100px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.social-icons i {
+    color: #ff4f8b;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* CARDS */
+
+.cards {
+    width: 100%;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+    margin-top: 30px;
+    border: none;
+
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 0, 128, 0.3);
+    box-shadow:
+        0 0 20px rgba(255, 0, 128, 0.3);
+    border-radius: 20px;
+}
+
+.card {
+    width: 30%;
+    height: 180px;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    position: relative;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.play {
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    right: 15px;
+    bottom: 15px;
+}
+
+.play i {
+    color: white;
+    font-size: 22px;
+}
+
+/* =========================
+   BACKGROUND TEXT
+========================= */
+
+.main {
+    position: relative;
+}
+
+.bg-text {
+    position: absolute;
+
+    font-size: 170px;
+    font-weight: 900;
+
+    color: rgba(255, 255, 255, 0.04);
+
+    letter-spacing: 10px;
+
+    z-index: 0;
+
+    user-select: none;
+}
+
+.left-text {
+    bottom: 180px;
+    left: 50px;
+}
+
+.right-text {
+    right: -310px;
+    top: 200px;
+
+    transform: rotate(90deg);
+}
+
+/* CONTENT UPR AYE */
+nav,
+.hero,
+.cards {
+    position: relative;
+    z-index: 2;
+}
+
+
