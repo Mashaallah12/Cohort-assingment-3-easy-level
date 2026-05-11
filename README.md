@@ -31,14 +31,9 @@ This assignment focuses on creating a clean UI design with proper layout structu
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-### Homepage Preview
-
-```md
-![Project Screenshot](images/screensort.png)
-```
----
+![Project Screenshot](./images/screenshot.png)
 
 ## 📁 Folder Structure
 
